@@ -5,7 +5,7 @@ function fibonacci(num) {
 		return a;
 	if(num==2)
 		return b;
-	for(let i=2;i<nums;i++){
+	for(let i=2;i<num;i++){
 		let temp=a+b;
 		a=b;
 		b=temp;
